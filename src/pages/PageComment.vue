@@ -110,6 +110,7 @@
 
 <script>
 import { defineComponent, ref } from 'vue'
+import foodclassify from '../backend/foodclassification'
 
 export default defineComponent({
   name: 'PageComment',
