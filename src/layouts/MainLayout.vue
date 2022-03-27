@@ -62,6 +62,22 @@
                             Inbox
                         </q-item-section>
                     </q-item>
+                    <q-item clickable v-ripple>
+                        <q-item to="/login" exact>
+
+                            <q-item-section>
+                                Log In
+                            </q-item-section>
+                        </q-item>
+                    </q-item>
+                    <q-item clickable v-ripple>
+                        <q-item to="/register" exact>
+
+                            <q-item-section>
+                                Register
+                            </q-item-section>
+                        </q-item>
+                    </q-item>
 
                     <q-item clickable v-ripple>
                         <q-item-section avatar>

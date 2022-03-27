@@ -7,6 +7,8 @@ const routes = [
       { path: '', component: () => import('src/pages/PageHome.vue') },
       { path: '/comment', component: () => import('src/pages/PageComment.vue') },
       { path: '/camera', component: () => import('src/pages/PageCamera.vue') },
+      { path: '/login', component: () => import('src/pages/PageLog.vue') },
+      { path: '/register', component: () => import('src/pages/PageRegister.vue') },
     ]
   },
   
